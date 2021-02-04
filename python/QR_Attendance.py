@@ -4,7 +4,6 @@ import numpy as np
 import pyzbar.pyzbar as pyzbar
 import sys
 import datetime
-import time
 
 
 # starting the webcam using opencv
@@ -55,7 +54,6 @@ def QR_attendance():
         for obj in decodedObjects:
             Name = obj.data.decode("utf-8")
             checkData(Name)
-            time.sleep(0.5)
 
         cv2.imshow("Frame", frame)
 
