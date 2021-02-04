@@ -1,0 +1,1 @@
+user1 ansible_host= ansible_private_key_file=./ansiuser ansible_ssh_user=ansibleuser
