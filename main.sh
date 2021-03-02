@@ -1,0 +1,23 @@
+figlet -f digital "           Chartered Institute of Technology"
+echo "                                                                "
+echo "|-------------------[ Lab Automation Project ]------------------|"
+echo "                                                                "
+echo "Note: 'auto' is the main command "
+echo "Usage: 'auto choice'" 
+echo "[choice]: here means any one of the options listed below"
+echo "To get HELP"
+echo "                                                                "
+
+echo "==============================="
+echo "[ Project Setup ]"
+echo "~ If your linux distro is RPM based run below command"
+echo "[CMD]: auto rpmsetup"
+echo "~ If your linux distro is DEB based run below command"
+echo "[CMD]: auto debsetup'"
+
+echo "==============================="
+echo "[ OPTIONS ]"
+echo "1. QR based Attendance"
+echo "2. Generating QR codes"
+echo "3. Display attendance"
+
